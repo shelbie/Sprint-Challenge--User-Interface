@@ -72,10 +72,6 @@ p {
 }
 
 
-
-
-
-
 .navigation {
     display: flex;
     align-items: flex-end;
@@ -91,14 +87,65 @@ p {
 
 }
 
-img.jumbo {
+.jumbo {
     width: 100%;
     padding: 2% 0;
 }
 
+.about {
+    width: 100%;
+    padding: 2%;
+}
+
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-top: 1px dashed black;
+    padding: 2% 0;
 
 
 
+}
+.sections .topics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding: 1% 0;
+}
+
+.topics .learn-more {
+    padding: 2% 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 35%;
+    text-align: center;
+    margin: 4% 0;
+}
+
+.topics p {
+    padding: 1% 0;
+}
+
+.topic-img {
+    padding: 3% 0 0 0;
+}
+
+.topics h2 {
+    padding: 4% 0 0 0;
+}
+
+.topic-img-two {
+    margin: 15% 0 0 0;
+}
+
+.work-together {
+    margin: 5% 0;
+}
 
 
 
